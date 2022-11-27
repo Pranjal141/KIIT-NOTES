@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiit Notes</title>
+    <link rel = "icon" href = "https://www.freelogovectors.net/wp-content/uploads/2022/03/kiit_logo_freelogovectors.net_.png"  img width=”50px” img length=”50px”
+        type = "image/x-icon">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:'Roboto Slab', serif;
+    }
+    .container{
+        min-width: 100%;
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)) ,url(images/kiit\ bg.avif);  
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        }
+        .container h1{
+            padding-bottom: 40px;
+            padding-top: 40px;
+            font-family: sans-serif;
+            color: #fff;
+            font-size: 45px;
+             
+        }
+        button{
+        padding: 10px 0;
+        color: #fff;
+        outline: none;
+        background: teal;
+        box-shadow: inset 0.1rem 0.1rem .5rem;
+        border-radius: 20px;
+        font-weight: 600;
+        border: 0.1rem solid black;
+        width: 15%;
+        cursor:pointer;
+    }
+    .col{
+      margin-bottom: 30px;
+        position: relative;
+    }
+    .form-group{
+      margin-bottom: 30px;
+        position: relative;
+    }
+    input, textarea{
+        width: 35%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+        font-size: 15;
+    }
+    ::placeholder{
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        color: #fff;
+        cursor: text;
+        transition: 0.2s;
+ }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CONTACT US</h1>
+        <form target="_blank" action="https://formsubmit.co/kiit193notes@gmail.com" method="POST">
+          <input type="hidden" name="_next" value="https://yourdomain.co/thankyou.html">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">SUBMIT</button>
+          <br>
+          <br>
+        </form>
+      </div>
+</body>
+</html>

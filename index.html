@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Kiit Notes</title>
+    <link rel = "icon" href = "https://www.freelogovectors.net/wp-content/uploads/2022/03/kiit_logo_freelogovectors.net_.png"  img width=”50px” img length=”50px”
+        type = "image/x-icon">
+    <script type="text/javascript">
+    function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+
+        const inputDisplay = input.value.length >= 1 ? 'block' : 'none';
+        ul.style.display = inputDisplay;
+
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+    </script>
+  </head>
+  <body style="overflow: scroll; overflow-y: hidden; overflow-x: hidden;">
+    <script src="index.js"></script>
+    <section class="header">
+      <ul>
+        <a href="index.html">
+          <img src="images/kiit logo.jpg" alt="KIIT" height="70px"
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#">Year ⮟</a>
+              <ul class="years">
+                    <li><a href="1st_year.html">1st Year</a></li>
+                    <li><a href="2nd_year.html">2nd Year</a></li>
+                    <li><a href="3rd_year.html">3rd Year</a></li>
+                    <li><a href="4th_year.html">4th Year</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">KIIT ⮟</a>
+              <ul class="years">
+                    <li><a href="https://kiitportal.kiituniversity.net/irj/portal/" target="_blank">SAP</a></li>
+                    <li><a href="https://kiitmoodle.in/login/index.php" target="_blank">Moodle</a></li>
+                    <li><a href="https://app.joinsuperset.com/#/s/feed" target="_blank">Superset</a></li>
+                    <li><a href="index.html">Notes</a></li>
+              </ul>
+            </li>
+      <li>
+      <a href="contibute.html">Contribute</a>
+      </li>
+            <li><a href="formform.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </ul>
+    </section>
+
+      <div class="main">
+        <h1>Hey there, KIITian </h1>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Subject.." title="Type in a name" autocomplete="off">
+    
+        <div style="overflow-x: scroll; overflow-x: hidden;"  >
+          <ul class="searchSub" id="myUL">
+            <li><a href="https://drive.google.com/file/d/1c2pDOdxIRINR2F9uMDmiRqoBP9N59tAQ/view?usp=drivesdk" target="_blank">Mathematics-I</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1P0OVCtObMCDfKzJKgirB-06a5nSTPHQX?usp=sharing" target="_blank">Physics</a></li>
+            <li><a href="https://drive.google.com/file/d/114TBl7IzUZ6e8NYBW2dg9WOSopnmqgNS/view?usp=drivesdk" target="_blank">Basic Electrical Engineering(BEE)</a></li>
+            <li><a href="https://drive.google.com/file/d/11uOdVT6o1Yv6vqUCYhamArD2VSTTHP_s/view?usp=drivesdk" target="_blank">Professional Communication(P.Comm)</a></li>
+            <li><a href="https://drive.google.com/file/d/1mGZs0UtgTB-u0fM7jXbA6hXBXE8RqLKs/view?usp=drivesdk" target="_blank">Mathematics-II</a></li>
+            <li><a href="https://drive.google.com/file/d/1qW3HksOznsQa8x6BqD9T65Plrg7nHEMi/view?usp=drivesdk" target="_blank">Chemistry</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1bMq5Qbz_pN68KG7oVN4MbLdYiEDpliP6?usp=sharing" target="_blank">Environmental Science(EVS)</a></li>
+            <li><a href="https://drive.google.com/file/d/1DiW9WKHIExHIzqjFHafGwCYUSQgviPK9/view?usp=drivesdk" target="_blank">Biology</a></li>
+            <li><a href="https://drive.google.com/file/d/1FXuOuJ0g7-NfsSB1QWGw3ui1sgPtgW3k/view?usp=drivesdk" target="_blank">Engineering Graphics(EG)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1gK4JpcWMv1lef1PRNENg71wknEx1_8Ig?usp=sharing" target="_blank">BMS Lab</a></li>
+            <li><a href="https://drive.google.com/file/d/1TUaNL_gmJZi_AtD_LaG_Z9uShB7PqOXZ/view?usp=drivesdk" target="_blank">Mathematics-III</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1T0FVO6a1S5ZsPhROwLY5C2yBo59sa-Ud" target="_blank">Data Structue & Algorithms(DSA)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1xcC375vcCuf6qDoHd_4_7mPsLphXyHuV" target="_blank">Object Oriented Programming(OOP)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/106PbDMOFslZvxea_xgfGUxd1rIfwcwJe" target="_blank">Probability & Statistics(PS)</a></li>
+            <li><a href="https://drive.google.com/file/d/1WkMp7uiAZyGtAlPnisZOSoUZY4ilZPaK/view?usp=drivesdk" target="_blank">Digital Electronics(DEC)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/153uOT3OElFpn3yDqmDtEG4m1nVXA4LiK" target="_blank">Database Management(DBMS)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/11ieDgN5d0LjW2rIlgzZN3ML988Qb2mB4" target="_blank">EE</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1ruRBFc5iwUn0FUhsz3oxZWfqDXD-7zyr" target="_blank">Principle of Signal and System(PSS)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/12k5MJ2uMuNEhudbBCVF3gc3IBPVXGJv_" target="_blank">Computer Architecture(COA)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/18RU3Lb8SZB8CL3qaTcLc1RIOFOPtzuHS" target="_blank">Operating System(OS)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1yujJZBvqiZKD007JVPn__7E7fxG72kKJ" target="_blank">Principle of Digital Communication(PDC)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1qMGs2QiYxBfc8UWRrB1oYnZ3xbislKJm" target="_blank">Web Technology(WT)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1a-VXd3cDfyz2VrbgSfU8-zeupruO5fWi" target="_blank">T&IM</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1OZR4mFgQh2Imyc7e9tZXC8Dbb_WkXdAV" target="_blank">Analog Electronics(AEC)</a></li>
+            <li><a href="https://drive.google.com/file/d/1JNgbTJpoeKO5PS_IHhitMf3uEeEANGAp/view?usp=drivesdk" target="_blank">EEM</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1R3uvezC5VjeY_TgHXujLbteuJGBO5kZh" target="_blank">Digital Circuits</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1gUGSKL64vnJSZsFfCXkRfmSUZxf9xEV_" target="_blank">DC & Sync.</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1GnU9GQSjvJ2X2ba60ynzHJLaK_PnSQq4" target="_blank">Principle of Measurements and Instrument(PMI)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1JFvXOIVqEuWQavg1455_5m2rW7DxkMIK" target="_blank">Linear Control System(LCS)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1iUOpVBJpXDvDu2Rhze7BKUM2javV3vtk" target="_blank">Power Electronics</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1WpSXx7ElZtSyXOfDcOZUOwtaFjjtucRX" target="_blank">Signal System</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1d2mVhww4qfpT8CZEFUygwf-mfcjjTqCe" target="_blank">Signals & Networks(SN)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1CAJd2wQ_Y3gSP9klXAWzrrb9sMq7BfH_" target="_blank">Microprocessors and Microcontrollers(MMI)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1J7EH8IcapuXZSgBugeN2VBaVM4t_cWyI" target="_blank">G&TD</a></li>
+            <li><a href="https://drive.google.com/file/d/1OgRNs-bGe8tcnsM7HEA7TrrVx6Q2gFUa/view?usp=drivesdk" target="_blank">FM</a></li>
+            <li><a href="https://drive.google.com/file/d/17_DgFMDkVO2I-AZf7FNs2rWIKkVAOkQk/view?usp=drivesdk" target="_blank">Business Communication</a></li>
+            <li><a href="https://drive.google.com/file/d/1imvv_cRF7GjXSh9e85dfLsHCZzr3uVGS/view?usp=drivesdk" target="_blank">Computer Networks(CN)</a></li>
+            <li><a href="https://drive.google.com/file/d/1OFcQGhhtln9JYT6xKoA2ktDPYONQhb2M/view?usp=drivesdk" target="_blank">HPCA</a></li>
+            <li><a href="https://drive.google.com/file/d/1ALRVy5COM0nnv-KAYn5Ku0FO7FS7ac06/view?usp=drivesdk" target="_blank">Design and Analysis of Algorithms(DAA)</a></li>
+            <li><a href="https://drive.google.com/file/d/15Ix3wxmaPNgHdsg1RxeT4yd-3Dh4q_2C/view?usp=drivesdk" target="_blank">Software Engineering(SE)</a></li>
+            <li><a href="https://drive.google.com/file/d/19my7WDjSdWPt554rwN-PlNeQFztXwyPs/view?usp=drivesdk" target="_blank">FLAT</a></li>
+            <li><a href="https://drive.google.com/file/d/1Z3auzRUMu521KVvgzQDabwgfiwg8oQ9O/view?usp=drivesdk" target="_blank">Computer Graphics(CG)</a></li>
+            <li><a href="https://drive.google.com/file/d/1i6_hauEfl_lX_WtdW23QlZlcI6HcMHq2/view?usp=drivesdk" target="_blank">CD</a></li>
+            <li><a href="https://drive.google.com/file/d/1Q9NFg4S9rq-7bnR9M65zCQRGqBPUqKo-/view?usp=drivesdk" target="_blank">Data Warehousing(DW)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1_r-pNt5Lcz5CpaqNehRGn9Yi1It0tlW2?usp=sharing" target="_blank">Microprocessors & interfacing(MI)</a></li>
+            <li><a href="https://drive.google.com/drive/folders/12A_ZT4x9DXIyxQqUhXo-N7aGLuE2nBtA?usp=sharing" target="_blank">Power System Operating and Control(PSOC)</a></li>
+          </ul>
+        </div>
+        <style>
+          #Subject{
+            background-image: url(https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-1.png);
+            padding-left: 30px;
+            background-position: right;
+            background-size: 75px;
+            background-repeat: no-repeat;
+          }
+        </style>
+    </div>
+    </section>
+  </body>
+</html>
